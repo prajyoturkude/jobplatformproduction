@@ -1,0 +1,854 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); */
+/* .element {
+    background-image: url('D:\HTTrack Website\Job Platform\eduquest.itech-theme.com\wp-content\uploads\2023\10\searching-for-job-online-4487043-3738450');
+    background-size: 50px; /* Adjust the image size 
+    background-position: left; /* Center the image }*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.formbold-mb-3 {
+  margin-bottom: 15px;
+}
+
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 570px;
+  width: 100%;
+  background: white;
+  padding: 40px;
+}
+
+.formbold-img {
+  display: block;
+  margin: 0 auto 45px;
+}
+
+.formbold-input-wrapp > div {
+  display: flex;
+  gap: 20px;
+}
+
+.formbold-input-flex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+.formbold-input-flex > div {
+  width: 50%;
+}
+.formbold-form-input {
+  width: 100%;
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid #dde3ec;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #536387;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input::placeholder,
+select.formbold-form-input,
+.formbold-form-input[type="date"]::-webkit-datetime-edit-text,
+.formbold-form-input[type="date"]::-webkit-datetime-edit-month-field,
+.formbold-form-input[type="date"]::-webkit-datetime-edit-day-field,
+.formbold-form-input[type="date"]::-webkit-datetime-edit-year-field {
+  color: rgba(83, 99, 135, 0.5);
+}
+
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formbold-form-label {
+  color: #07074d;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formbold-form-file-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.formbold-form-file-flex .formbold-form-label {
+  margin-bottom: 0;
+}
+.formbold-form-file {
+  font-size: 14px;
+  line-height: 24px;
+  color: #536387;
+}
+.formbold-form-file::-webkit-file-upload-button {
+  display: none;
+}
+.formbold-form-file:before {
+  content: "Upload file";
+  display: inline-block;
+  background: #eeeeee;
+  border: 0.5px solid #fbfbfb;
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding: 3px 12px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  color: #637381;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: 10px;
+}
+
+.formbold-btn {
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 14px 25px;
+  border: none;
+  font-weight: 500;
+  background-color: #6a64f1;
+  color: white;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-w-45 {
+  width: 45%;
+}
+
+/* new css for headernav */
+.custom-size {
+  width: 30%; /* Adjust the width as needed */
+  padding: 10px; /* Optional: adjust padding for inner spacing */
+}
+
+.custom-size .elementor-widget-container img {
+  max-width: 100%; /* Ensures the image fits within the new size */
+  height: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.clients-section {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+.clients-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+.clients-section .domain-list,
+.clients-section .industry-list {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  padding: 0;
+  width: 45%;
+  box-sizing: border-box;
+}
+.clients-section .domain-list li,
+.clients-section .industry-list li {
+  list-style-type: none;
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #555;
+}
+.clients-section .domain-list li:before,
+.clients-section .industry-list li:before {
+  content: "•";
+  color: #ed4382;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.rs-addon-services .services-part .services-text {
+  padding: 10px 0 0;
+  position: relative;
+}
+.rs-addon-services .services-part .services-text .services-title {
+  position: relative;
+}
+.rs-addon-services .services-part .services-text .services-title .title {
+  font-size: 24px;
+  margin: 0 0 10px;
+  color: #0a0a0a;
+}
+.rs-addon-services .services-part .services-text .services-title .title a {
+  color: #0a0a0a;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-title
+  .title
+  a:hover {
+  color: #1273eb;
+}
+.rs-addon-services .services-part .services-text .services-title .title:before {
+  content: "01.";
+  font-size: 50px;
+  font-weight: bold;
+  color: #061340;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+.rs-addon-services .services-part .services-text .services-txt {
+  margin: 0;
+  transition: 0.4s;
+}
+.rs-addon-services .services-part .services-text .services-btn-part {
+  margin: 15px 0 0;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn {
+  position: relative;
+  display: inline-block;
+  color: #0b70e1;
+  transition: all ease 0.3s;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn
+  i {
+  transition: all ease 0.3s;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn:hover {
+  color: #061340;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn.icon-after
+  span {
+  float: left;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn.icon-after
+  i {
+  margin-left: 10px;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn.icon-before
+  span {
+  float: right;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn.icon-before
+  i {
+  margin-right: 10px;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn
+  .border-right {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background: #0b70e1;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.rs-addon-services
+  .services-part
+  .services-text
+  .services-btn-part
+  .services-btn:hover
+  .border-right {
+  right: -40px;
+  opacity: 1;
+}
+.rs-addon-services .services-part:after {
+  content: "";
+  width: 0;
+  height: 4px;
+  background: #061340;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  bottom: 0;
+  left: 50%;
+  z-index: 9;
+  transform: translateX(-50%);
+}
+.rs-addon-services .services-part:hover .services-icon {
+  color: #0b70e1;
+}
+.rs-addon-services .services-part:hover .services-icon:after {
+  opacity: 1;
+  visibility: visible;
+}
+.rs-addon-services .services-part:hover .services-text .services-title .title {
+  color: #061340;
+  transition: 0.4s;
+}
+.rs-addon-services
+  .services-part:hover
+  .services-text
+  .services-title
+  .title
+  a {
+  color: #061340;
+}
+.rs-addon-services .services-part:hover:after {
+  width: 100%;
+}
+.rs-addon-services.services-style2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #061340;
+  transform: scaleY(0);
+  transition: all 0.3s ease 0s;
+}
+.rs-addon-services.services-style2 .services-part {
+  background: 0 0;
+  padding: 30px 0;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+.rs-addon-services.services-style2 .services-part:hover .services-icon,
+.rs-addon-services.services-style2 .services-part:hover .services-title .title,
+.rs-addon-services.services-style2 .services-part:hover .services-txt {
+  color: #fff;
+}
+.rs-addon-services.services-style2:hover:before {
+  transform: scaleY(1);
+}
+.rs-addon-services.services-style3 {
+  position: relative;
+}
+.rs-addon-services.services-style3 .services-part {
+  border-bottom-width: 4px;
+  transition: all 0.3s ease 0s;
+  position: relative;
+}
+.rs-addon-services.services-style3 .services-part .services-icon {
+  width: 90px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: -45px;
+  transform: translateX(-50%);
+  color: #fff;
+  background: #061340;
+  box-shadow: 0px 3px 36px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease 0s;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  border-radius: 100%;
+}
+.rs-addon-services.services-style3 .services-part .services-icon i {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+.rs-addon-services.services-style3 .services-part .services-icon img {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+.rs-addon-services.services-style3 .services-part:hover .services-icon {
+  top: -35px;
+}
+.rs-addon-services.services-style3 .services-part .services-text {
+  padding: 90px 30px 50px;
+}
+.rs-addon-services.services-style4 .services-part,
+.rs-addon-services.services-style7 .services-part {
+  display: flex;
+}
+.rs-addon-services.services-style7 .image_border_shape {
+  text-align: center;
+}
+.rs-addon-services.services-style7 .image_border_shape .services-icon {
+  position: relative;
+  top: 3px;
+}
+.rs-addon-services.services-style5 {
+  position: relative;
+  overflow: hidden;
+}
+.rs-addon-services.services-style5:before,
+.rs-addon-services.services-style5:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f3f3f3;
+  border-radius: 50%;
+  border: 1px solid #f3f3f3;
+  transition: 0.4s;
+}
+.rs-addon-services.services-style5:after {
+  bottom: -125px;
+  background: transparent;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 1px solid #f3f3f3;
+}
+.rs-addon-services.services-style5:before {
+  background: #f3f3f3;
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+  bottom: -98px;
+}
+.rs-addon-services.services-style5.services-style5.service_shape_:before,
+.rs-addon-services.services-style5.services-style5.service_shape_:after,
+.rs-addon-services.services-style5.services-style5.service_shape_
+  .services-part:before {
+  display: none;
+}
+.rs-addon-services.services-style5 .services-part {
+  position: relative;
+}
+.rs-addon-services.services-style5 .services-part:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background: #f3f3f3;
+  transition: 0.5s;
+  height: 1px;
+  width: 0;
+}
+.rs-addon-services.services-style5 .services-part .services-text {
+  margin-top: -50px;
+}
+.rs-addon-services.services-style5 .services-part .services-btn-part {
+  position: absolute;
+  margin: 0;
+  line-height: normal;
+  text-align: center;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.rs-addon-services.services-style5 .services-part .services-icon {
+  padding: 0;
+}
+.rs-addon-services.services-style5 .services-part .services-icon img {
+  width: 100%;
+  height: auto;
+}
+.rs-addon-services.services-style5 .services-part .icon_image i {
+  width: 70px;
+  height: 70px;
+  line-height: 64px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #0b70e1;
+  color: #fff;
+  box-shadow: 0 0 30px #a79f9f;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.rs-addon-services.services-style5:hover:after {
+  width: 182px;
+  height: 182px;
+}
+.rs-addon-services.services-style5:hover:before {
+  width: 140px;
+  height: 140px;
+}
+.rs-addon-services.services-style5:hover .services-part .services-btn-part {
+  bottom: -80px;
+  opacity: 1;
+  visibility: visible;
+}
+.rs-addon-services.services-style5:hover .services-part:before {
+  width: 100%;
+}
+.rs-addon-services.services-style6 .services-part {
+  position: relative;
+}
+.rs-addon-services.services-style6 .services-part .shape-image {
+  animation: move-y 2s alternate infinite;
+  animation: none;
+  -webkit-animation: move-y 2s alternate infinite;
+  position: relative;
+  position: absolute;
+  width: unset;
+  height: unset;
+  top: 40px;
+  right: 70px;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+  visibility: hidden;
+}
+.rs-addon-services.services-style6 .services-part .services-icon {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto 42px;
+  position: relative;
+  background: #0b70e1;
+  box-shadow: 0 28px 28px 0 rgba(108, 88, 250, 0.2);
+}
+.rs-addon-services.services-style6 .services-part .services-icon:before {
+  border-color: #0b70e1;
+  position: absolute;
+  content: "";
+  right: -1px;
+  bottom: -2px;
+  width: 112px;
+  height: 112px;
+  border-radius: 100%;
+  border: 1px solid;
+  transition: all 0.3s ease 0s;
+  z-index: 0;
+}
+.rs-addon-services.services-style6:hover .services-part .shape-image {
+  animation: move-y 2s alternate infinite;
+  -webkit-animation: move-y 2s alternate infinite;
+}
+.rs-addon-services.services-style6:hover .services-part .services-icon:before {
+  opacity: 0;
+  transform: scale(0.85);
+}
+.rs-addon-services.services-style8 .services-icon {
+  transform: rotate(45deg);
+  border-radius: 2px;
+  margin-left: 11px;
+  margin-top: 11px;
+  transition: 0.4s;
+}
+.rs-addon-services.services-style8 .services-icon i {
+  transform: rotate(-45deg);
+}
+.rs-addon-services.services-style8:hover .services-icon {
+  background-image: inherit !important;
+}
+.rs-addon-services.services-style9 .services-part .services-icon.image {
+  overflow: hidden;
+}
+.rs-addon-services.services-style9 .services-part .services-icon.image img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+}
+.rs-addon-services.services-style9
+  .services-part
+  .services-text
+  .services-btn-part {
+  margin-top: 20px;
+}
+.rs-addon-services.services-style9
+  .services-part
+  .services-text
+  .services-btn-part
+  a.services-btn {
+  color: #102b3e;
+}
+.rs-addon-services.services-style9
+  .services-part
+  .services-text
+  .services-btn-part
+  a.services-btn
+  span {
+  text-decoration: underline;
+}
+.rs-addon-services.services-style9
+  .services-part
+  .services-text
+  .services-btn-part
+  a.services-btn
+  i {
+  -webkit-transform: translateX(0) !important;
+  transform: translateX(0) !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease 0.3s;
+}
+.rs-addon-services.services-style9
+  .services-part
+  .services-text
+  .services-btn-part
+  a.services-btn:hover {
+  color: #f2541b;
+}
+.rs-addon-services.services-style9
+  .services-part
+  .services-text
+  .services-btn-part
+  a.services-btn:hover
+  i {
+  -webkit-transform: translateX(10px) !important;
+  transform: translateX(10px) !important;
+  opacity: 1;
+  visibility: visible;
+  color: #f2541b;
+}
+/*
+CSS for Career Comfort Job Seeker and Business Tie up sections
+
+.elementor-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.elementor-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.elementor-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.elementor-widget-container {
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: white;
+}
+
+.elementor-widget-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+ 
+.services-part {
+  padding: 20px;
+}
+
+.services-icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.services-title {
+  margin: 15px 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.services-title a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.services-title a:hover {
+  color: #0073e6;
+}
+
+.services-txt {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.services-btn-part a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0073e6;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.services-btn-part a:hover {
+  background-color: #005bb5;
+  box-shadow: 0 4px 8px rgba(0, 115, 230, 0.2);
+}
+
+ 
+.services-btn-part a i {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+.services-btn-part a:hover i {
+  transform: translateX(5px);
+} */
+
+/* Scope all styles under the .custom-section class */
+.custom-section .elementor-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+.custom-section .elementor-container {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  border: 1px solid red;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.custom-section .elementor-column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.custom-section .elementor-column.right-align {
+  margin-left: auto;
+}
+
+.custom-section .elementor-widget-container {
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid red;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: white;
+}
+
+.custom-section .elementor-widget-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-section .services-part {
+  padding: 20px;
+}
+
+.custom-section .services-icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-section .services-title {
+  margin: 15px 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.custom-section .services-title a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.custom-section .services-title a:hover {
+  color: #0073e6;
+}
+
+.custom-section .services-txt {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+.custom-section .services-btn-part a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0073e6;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.custom-section .services-btn-part a:hover {
+  background-color: #005bb5;
+  box-shadow: 0 4px 8px rgba(0, 115, 230, 0.2);
+}
+
+.custom-section .services-btn-part a i {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+.custom-section .services-btn-part a:hover i {
+  transform: translateX(5px);
+}
