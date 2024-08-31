@@ -1,4 +1,4 @@
-const sheetName = ''
+const sheetName = 'contact-form'
 const scriptProp = PropertiesService.getScriptProperties()
 
 function intialSetup () {

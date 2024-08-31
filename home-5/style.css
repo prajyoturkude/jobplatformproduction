@@ -1134,8 +1134,19 @@ CSS for Career Comfort Job Seeker and Business Tie up sections
   }
 }
 
+@media (max-width: 425px) {
+  .custom-section .elementor-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    margin: auto;
+}
 
-
+}
 
 /* bussiness css */
 
